@@ -11,7 +11,7 @@ import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
 import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
-import { orange } from '@mui/material/colors';
+import { brown, orange } from '@mui/material/colors';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
@@ -28,8 +28,9 @@ function SCard() {
             R
           </Avatar>
         }
+        sx={{ bgcolor: brown[800] }}
         title="Riken Prajapati"
-        subheader="OBC"
+        subheader="CSE"
       />
       </Card>
   );

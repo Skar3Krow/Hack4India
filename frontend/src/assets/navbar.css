@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #3F2305;
+  
 }
 
 li,
@@ -22,6 +22,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 30px 2%;
+  background-color: #3F2305;
 }
 
 .logo {
@@ -50,6 +51,7 @@ button {
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  background-color: #3F2305;
 }
 
 button:hover {
