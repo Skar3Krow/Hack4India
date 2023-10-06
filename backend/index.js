@@ -25,6 +25,7 @@ app.use(bodyParser.json())
 app.use("/auth", authRoutes)
 app.use('/attendence', attendanceRoutes);
 app.use('/student', studentRoutes);
+// app.use('/user', userRoutes)
 
 
 // MONGOOSE SETUP
