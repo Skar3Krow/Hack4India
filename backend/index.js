@@ -8,6 +8,7 @@ import { fileURLToPath } from "url"
 import authRoutes from "./routes/auth.js"
 import attendanceRoutes from './routes/attendance.js'
 import studentRoutes from "./routes/student.js"
+import userRoutes from "./routes/user.js"
 
 
 // CONFIGURATIONS 
@@ -25,7 +26,7 @@ app.use(bodyParser.json())
 app.use("/auth", authRoutes)
 app.use('/attendence', attendanceRoutes);
 app.use('/student', studentRoutes);
-// app.use('/user', userRoutes)
+app.use('/user', userRoutes)
 
 
 // MONGOOSE SETUP
