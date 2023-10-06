@@ -1,25 +1,22 @@
 import React from "react";
-import logo from '/Users/skar3krow/react-projects/securauma/src/logo.png'
+import '../assets/navbar.css'
+import SCard from './SCard'
+import logo from '../assets/logo.png'
 
 function NavBar() {
   return (
     <header>
-      {/* <img className="logo" src={logo} alt="Henlo" /> */}
+      <SCard/>
+      <img className="logo" src={logo} alt="Henlo" />
+      
       <ul className="nav__links">
-        <li>
-          <a href="">About Us</a>
-        </li>
-        <li>
-          <a href="">Emergency</a>
-        </li>
-        <li>
-          <a href="">Partners</a>
-        </li>
-        <li>
-          <a href="">Services</a>
-        </li>
-      </ul>
+      <li>
+          <a href="">Your Profile</a>
+      </li>
       <button>Contact Us</button>
+      </ul>
+
+        
     </header>
   );
 }
