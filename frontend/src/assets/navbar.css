@@ -13,16 +13,26 @@ a {
   font-family: Montserrat, sans-serif;
   font-weight: 500;
   font-size: 16px;
-  color: #FF8400;
+  color: white;
   text-decoration: none;
 }
+.your{
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+.kal{
+  margin: 0.5rem;
+}
+
+
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 2%;
-  background-color: #3F2305;
+  background-color: #945ce4;
 }
 
 .logo {
@@ -46,16 +56,41 @@ header {
 button {
   padding: 9px 25px;
   background-color:none;
-  border-color:#FF8400;
+  border-color:white;
   border-width: 2px;
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
-  background-color: #3F2305;
+  background-color: #945ce4;
 }
 
 button:hover {
-  background-color: #FF8400;
-  border-color: #3F2305;
-  color: #3F2305;
+  color: white;
+  background-color: #673ab7;
+  border-color: white;
+  
 }
+.div{
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-left: 30px;
+  padding-right: 30px;
+  
+}
+.heading{
+  font-size: 6rem;
+  padding-top: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+  color: #FF8400;
+}
+#cardhead{
+  font-size: 2.5rem;
+}
+#carddata{
+  font-size: 1rem;
+}
+
