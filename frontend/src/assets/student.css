@@ -1,0 +1,74 @@
+body{
+    background-color: whitesmoke;
+}
+.headbox{
+    height: 15rem;
+    border-radius: 1.5rem;
+    margin-top: 2rem;
+    margin-right: 20% ;
+    margin-left: 20%;
+    background-color: #945ce4;
+    
+}
+.d1{
+    display: flex;
+    flex-direction: row ;
+
+}
+.d2{
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    text-align: start;
+    margin-left: 5%;
+    padding: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    
+}
+#small{
+    padding-top: 6%;
+    font-size: 1rem;
+}
+
+.d3{
+    display: flex;
+    height: 15rem;
+    margin-left: auto;
+    margin-right: 5%;
+    border-radius: 1.5rem;
+    justify-content: end;
+}
+
+.cardbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.threecards{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    margin: 5%;
+    text-align: center;
+    background-color: white;
+    height: 17rem;
+    width: 18rem;
+    border-radius: 1.5rem;
+    transition: transform ease-in-out 0.4s;
+    justify-content: space-evenly;
+
+}
+.threecards:hover{
+    transform: scale(1.05);
+    border: 0.25rem solid;
+    border-color: #945ce4;
+    
+}
+
+.ff{
+    background-color: #945ce4;
+    color: black;
+    font-size: 2xl;
+}
