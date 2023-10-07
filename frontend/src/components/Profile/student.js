@@ -22,15 +22,15 @@ const StudentCard = ({ name, studentId, contactDetails, profilePicture, major, y
   <div className='cardbox'>
     <div className='threecards'>
     <img src={si}/>
-      <h1><Link to='/student_info'>Student Information</Link></h1>
+    <h1 className='ff'><Link to='/student_info'>Student Information</Link></h1>
     </div>
     <div className='threecards'>
       <img src={courses2}/>
-      <p>Enrolled Courses</p>
+      <h1 className='ff'><Link to='/courses'>Enrolled Courses</Link></h1>
     </div>
     <div className='threecards'>
       <img src={att} />
-      <p>Attendance Summary</p>
+      <h1 className='ff'><Link to='/attendance'>Attendance Summary</Link></h1>
     </div>
   </div>  
   </div>

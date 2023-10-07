@@ -5,6 +5,7 @@ import StudentCard from './components/Profile/student';
 import CourseCard from './components/CourseCard';
 import Information from './components/Cards/studentinfo';
 import data from './components/Cards/data';
+import Login from './Credentials/login';
 
 function App() {
 
@@ -23,7 +24,11 @@ function App() {
       <div>
         <Routes>
           <Route
-          exact path='/' 
+            exact path='/' 
+            element={<><Login /></>}>
+          </Route>
+          <Route
+          exact path='/home' 
           element={<><NavBar /><CourseCard /></>}>
           </Route>
           <Route
@@ -33,6 +38,14 @@ function App() {
           <Route
           exact path='/student_info' 
           element={<><NavBar />{cards}</>}>
+          </Route>
+          <Route
+          exact path='/courses' 
+          element={<><NavBar /></>}>
+          </Route>
+          <Route
+          exact path='/attendance' 
+          element={<><NavBar /></>}>
           </Route>
         </Routes>
       </div>
